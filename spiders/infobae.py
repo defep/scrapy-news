@@ -3,8 +3,8 @@ import scrapy
 from items import Article
 
 
-class NewsSpider(scrapy.Spider):
-    name = 'newsspider'
+class InfobaeSpider(scrapy.Spider):
+    name = 'infobaespider'
     start_urls = ['https://www.infobae.com']
 
     def parse(self, response):

@@ -4,7 +4,7 @@ from items import Article
 
 
 class InfobaeSpider(scrapy.Spider):
-    name = 'infobaespider'
+    name = 'infobae'
     start_urls = ['https://www.infobae.com']
 
     def parse(self, response):
